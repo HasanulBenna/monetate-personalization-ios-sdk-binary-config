@@ -80,13 +80,16 @@ Join the 1,000+ brands growing their revenue with Monetate"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  #  s.source       = { :git => "https://github.com/monetate/monetate-personalization-ios-sdk-cocoapod.git", :tag => "2026.04.28" }
+  # s.source       = { :git => "https://github.com/monetate/monetate-personalization-ios-sdk-cocoapod.git", :tag => "2026.04.28" }
 
-
-  s.source = {
+  
+s.source = {
     :http => 'https://monetate.jfrog.io/artifactory/monetate-ios-local-dev/Monetate/2026.04.31/Monetate.xcframework.zip'
 }
-  s.vendored_frameworks = "Monetate.xcframework"
+s.vendored_frameworks = "Monetate.xcframework"
+
+
+  
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -97,8 +100,8 @@ Join the 1,000+ brands growing their revenue with Monetate"
   #  Not including the public_header_files will make all headers public.
   #
 
-  # s.source_files  = "Sources/monetate/**/*.{swift,h,m}"
-  # s.resources     = "Sources/monetate/Resources/*"
+  #s.source_files  = "Sources/monetate/**/*.{swift,h,m}"
+  #s.resources     = "Sources/monetate/Resources/*"
 
   # s.public_header_files = "Classes/**/*.h"
 
