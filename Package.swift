@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Monetate",
-            url: "https://monetate.jfrog.io/artifactory/monetate-ios-local-dev/Monetate/2026.04.31/Monetate.xcframework.zip",
-            checksum: "def270f77aa525036c7c464d9e5a7ca65e9704bc86adab5bd989d470304bb89b"
+            url: "https://monetate.jfrog.io/artifactory/monetate-ios-local/Monetate/2026.07.10/Monetate.xcframework.zip",
+            checksum: "85ea7b921078e5a1b181422fbf92741c75be40ee28a9469edaa30804a5b315ee"
         )
     ]
 )
