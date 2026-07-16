@@ -45,14 +45,15 @@ The SDK can be integrated using:
 In Xcode:
 File → Add Packages
 
-Enter the SDK repository URL provided by Monetate.
+Enter the SDK repository URL:
+https://github.com/monetate/monetate-personalization-ios-sdk-binary-config.git 
 
 ---
 
-### Select Version
+### Select Source
 
-- Recommended: Up to Next Major Version
-- Or specific version as required
+- **Recommended:** `main` branch
+- **Or:** Select a specific commit or version as required
 
 ---
 
@@ -60,9 +61,10 @@ Enter the SDK repository URL provided by Monetate.
 
 ### Add Podfile
 
-```ruby
-pod 'MonetateSDK'```
-Replace with the exact pod name if provided differently.
+target 'YourApp' do
+ use_frameworks!
+ pod 'monetate-ios-sdk'
+end
 
 ###Install Dependencies
 pod install

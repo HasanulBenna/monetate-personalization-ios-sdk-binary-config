@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "monetate-ios-sdk"
-  s.version      = "2026.04.31"
+  s.version      = "2026.07.10"
   s.summary      = "Provides convenient access to the Engine API"
 
   # This description is used to generate tags and improve search results.
@@ -84,7 +84,7 @@ Join the 1,000+ brands growing their revenue with Monetate"
 
   
 s.source = {
-    :http => 'https://monetate.jfrog.io/artifactory/monetate-ios-local-dev/Monetate/2026.04.31/Monetate.xcframework.zip'
+    :http => 'https://monetate.jfrog.io/artifactory/monetate-ios-local/Monetate/2026.07.10/Monetate.xcframework.zip'
 }
 s.vendored_frameworks = "Monetate.xcframework"
 
