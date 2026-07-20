@@ -52,7 +52,7 @@ https://github.com/monetate/monetate-personalization-ios-sdk-binary-config.git
 
 ### Select Source
 
-- **Recommended:** `main` branch
+- **Recommended:** Latest `release version` or `main` branch
 - **Or:** Select a specific commit or version as required
 
 ---
@@ -61,10 +61,27 @@ https://github.com/monetate/monetate-personalization-ios-sdk-binary-config.git
 
 ### Add Podfile
 
-target 'YourApp' do
- use_frameworks!
- pod 'monetate-ios-sdk'
-end
+Add the following dependency to your `Podfile`:
 
-###Install Dependencies
+```ruby
+target 'YourApp' do
+  use_frameworks!
+  pod 'monetate-ios-sdk'
+end
+```
+
+### Install Dependencies
+
+Install the CocoaPods dependencies by running the following command:
+
+```bash
 pod install
+```
+
+### Import the Framework
+
+After installing the dependency, import the Monetate framework in your Swift source files:
+
+```swift
+import Monetate
+```
